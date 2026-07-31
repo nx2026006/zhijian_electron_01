@@ -1,0 +1,46 @@
+// SCSS 变量 — nowCreate 内容创作平台
+// Cobalt 钴蓝色系：白底 + 锐利蓝紫强调色
+
+// ===== 主色调 =====
+$color-primary:#1664ff;
+$color-primary-light:#4096ff;
+$color-primary-dark:#0050cc;
+
+// ===== 背景 =====
+$bg-body:#ffffff;
+$bg-white:#ffffff;
+$bg-sidebar:#f6f7fa;
+$bg-toolbar:#ffffff;
+$bg-panel:#ffffff;
+$bg-canvas:#fafbfc;
+$bg-hover:#f3f5fa;
+$bg-active:rgba(22,100,255,0.06);
+
+// ===== 文字 =====
+$font-size-base:14px;
+$font-size-sm:12px;
+$text-primary:#1a1d26;
+$text-secondary:rgba(26,29,38,0.5);
+$text-muted:#b0b3bd;
+
+// ===== 功能色 =====
+$color-success:#3da55e;
+$color-warning:#e6a23c;
+$color-danger:#e8453c;
+$color-info:#8e919e;
+
+// ===== 边框 =====
+$border-color:#e8eaef;
+$border-radius:4px;
+
+// ===== 间距 =====
+$spacing-xs:4px;
+$spacing-sm:8px;
+$spacing-base:14px;
+$spacing-md:20px;
+$spacing-lg:30px;
+
+// ===== 布局 =====
+$titlebar-height:39px;
+$sidebar-width:52px;
+$z-titlebar:999;

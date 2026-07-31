@@ -1,0 +1,28 @@
+# ====== electron-builder 打包配置 ======
+# 运行: yarn build（先 electron-vite build 编译，再 electron-builder 打包）
+
+appId: com.nowcreate.electron
+productName: '纸简'
+copyright: 'Copyright © 2026 nowCreate'
+
+directories:
+  output: release
+  buildResources: resources
+
+files:
+  - out/**/*
+  - package.json
+
+# 不打包 devDependencies
+extraMetadata:
+  main: out/main/index.js
+
+# 图标：放 resources/icon.png（1024×1024），auto-convert 为 ico
+icon: resources/icon-rounded.png
+
+win:
+  icon: resources/icon-rounded.png
+  artifactName: '${productName}-${version}-win-x64.${ext}'
+  target:
+    - target: zip
+      arch: [x64]
