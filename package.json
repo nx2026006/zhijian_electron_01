@@ -2,7 +2,7 @@
   "name": "nowCreate-electron",
   "version": "0.1.0",
   "description": "nowCreate 内容创作平台 — Electron 桌面端",
-  "author": "zhijian_2026",
+  "author": "xiaowu89",
   "private": true,
   "type": "module",
   "main": "./out/main/index.js",
