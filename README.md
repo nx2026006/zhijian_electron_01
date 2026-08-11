@@ -1,5 +1,12 @@
 # nowCreate-electron
 
+> **Desktop image batch compression tool built with Electron + Vue 3.** Batch import, custom quality control, CDN upload and result export — all in one.
+
+![GitHub stars](https://img.shields.io/github/stars/nx2026006/zhijian_electron_01)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Electron](https://img.shields.io/badge/Electron-28-blue)
+![Vue](https://img.shields.io/badge/Vue-3.4-green)
+
 基于 Electron + Vue 3 的桌面图片压缩工具，支持批量导入、自定义质量压缩、CDN 直传和结果导出。
 
 ## 功能特性
