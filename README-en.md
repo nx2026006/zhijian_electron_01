@@ -47,9 +47,6 @@ NX_API_KEY=your_api_key
 
 The app reads it automatically on startup. If missing, clicking "Start compress" opens an input dialog and writes the key into `.env`.
 
-### Getting a Key
-
-Contact WeChat **zhijian_2026**.
 
 ## Tech Stack
 
@@ -82,3 +79,4 @@ Contact WeChat **zhijian_2026**.
 ## License
 
 MIT
+

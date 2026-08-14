@@ -99,7 +99,7 @@
           <p class='api-key-msg'>API Key 验证失败，是否更新？</p>
         </template>
         <template v-else>
-          <p class='api-key-contact'>获取 API Key 请联系微信 zhijian_2026</p>
+          <p class='api-key-contact'>获取api key，请加入qq群：1105028359</p>
           <input ref='tokenInputRef' v-model='tokenInput' class='api-key-input' placeholder='请输入 NX_API_KEY' @keyup.enter='onTokenConfirm'>
         </template>
       </div>
@@ -209,7 +209,7 @@
     const msg=message||errorType||'未知错误';
     // 余额不足：code===20000 或 message 含"余额"，致命，停止后续
     if(code===20000||(msg&&msg.includes('余额'))){
-      ElMessage.error({message:'账户余额不足，请联系微信 zhijian_2026 充值',duration:6000});
+      ElMessage.error({message:'账户余额不足，请加入qq群：1105028359 充值',duration:6000});
       fatalError=true;
       return false;
     }

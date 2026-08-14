@@ -22,7 +22,16 @@ icon: resources/icon-rounded.png
 
 win:
   icon: resources/icon-rounded.png
-  artifactName: '${productName}-${version}-win-x64.${ext}'
   target:
+    - target: nsis
+      arch: [x64]
     - target: zip
       arch: [x64]
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: always
+  shortcutName: '${productName}'
+  artifactName: '${productName}-${version}-Setup.${ext}'
