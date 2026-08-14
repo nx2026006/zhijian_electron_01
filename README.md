@@ -22,8 +22,6 @@
 
 ![主界面](docs/screenshots/main.png)
 
-![压缩过程](docs/screenshots/compress.png)
-
 ## 环境要求
 
 | 依赖 | 版本 |

@@ -20,8 +20,6 @@ A **desktop image batch compression tool** built with **Electron + Vue 3**. Batc
 
 ![Main interface](docs/screenshots/main.png)
 
-![Compression in progress](docs/screenshots/compress.png)
-
 ## Requirements
 
 | Dependency | Version |
