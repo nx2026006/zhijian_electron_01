@@ -18,6 +18,12 @@
 - **文件导出**：覆盖原文件或导出到指定目录
 - **Token 管理**：启动自动加载，缺失时弹窗引导配置
 
+## 界面展示
+
+![主界面](docs/screenshots/main.png)
+
+![压缩过程](docs/screenshots/compress.png)
+
 ## 环境要求
 
 | 依赖 | 版本 |

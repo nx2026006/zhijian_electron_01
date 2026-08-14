@@ -16,6 +16,12 @@ A **desktop image batch compression tool** built with **Electron + Vue 3**. Batc
 - **File export**: overwrite original files or export to a chosen directory
 - **Token management**: auto-loaded on startup, guided setup dialog if missing
 
+## Screenshots
+
+![Main interface](docs/screenshots/main.png)
+
+![Compression in progress](docs/screenshots/compress.png)
+
 ## Requirements
 
 | Dependency | Version |
