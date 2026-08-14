@@ -49,7 +49,6 @@ NX_API_KEY=你的API密钥
 
 启动后系统自动读取。若未配置，点击"开始压缩"时会弹出输入框，填写后自动写入 `.env`。
 
-
 ## 项目结构
 
 ```
@@ -136,5 +135,5 @@ nowCreate-electron/
 
 扫描下方二维码加入 QQ 群，**免费获取 API Key** 及技术支持：
 
-![加入QQ群](resources/qq.jpg)
+![加入QQ群](resources/qq.png)
 
